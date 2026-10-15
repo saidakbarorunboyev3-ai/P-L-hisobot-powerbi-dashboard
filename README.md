@@ -1,36 +1,37 @@
-# Foyda va zarar (P&L) hisoboti — Power BI Dashboard
+# Foyda va Zakar (P&L) Hisoboti — Power BI Dashboard
 
-Ushbu loyoya korxonaning moliyaviy ko'rsatkichlarini tahlil qilish, daromad va xarajatlar dinamikasini kuzatish hamda reja bajarilishini nazorat qilish uchun Power BI dasturida ishlab chiqilgan zamonaviy interaktiv hisobot (Dashboard) hisoblanadi.
+Ushbu loyiha korxonaning moliyaviy faoliyatini tahlil qilish, daromad va xarajatlar dinamikasini kuzatish hamda reja bajarilishini operativ nazorat qilish uchun Power BI dasturida ishlab chiqilgan zamonaviy interaktiv hisobot hisoblanadi.
 
 ---
 
-## 📊 Loyiha tuzilishi va sahifalar
+## 📊 Loyiha Tuzilishi va Sahifalar
 
-Hisobot ikki asosiy qismdan (sahifadan) iborat bo'lib, ular bir-biri bilan o'zaro bog'langan:
+Hisobot ikki asosiy sahifadan iborat bo'lib, ular rahbariyat va tahlilchilar uchun barcha kerakli ko'rsatkichlarni qamrab oladi:
+
 
 ### 1. Asosiy Sahifa (Umumiy tahlil va KPI'lar)
-* **Maqsad:** Rahbariyat va tahlilchilar uchun asosiy moliyaviy ko'rsatkichlarni bir qarashda tushunishni ta'minlash.
-* **Tarkibi:**
-  * **KPI Kartochkalari:** Daromad, Yalpi foyda, EBIT (operatsion foyda), Sof foyda va Sof marja ko'rsatkichlari ularning reja bo'yicha foizli og'ishlari bilan.
-  * **Oylik dinamika grafigi:** Daromadning faktik va rejalashtirilgan ko'rsatkichlari oyma-oy taqsimoti.
-  * **Qo'shimcha vizuallar:** Daromad mahsulotlar ulushi (Donut chart), operatsion xarajatlar tuzilmasi va regionlar kesimidagi sof foyda taqsimoti.
+* **KPI Bloklari:** Daromad, Yalpi foyda, EBIT, Sof foyda va Sof marja ko'rsatkichlari, shuningdek har birining rejadan og'ish foizlari.
+* **Oylik dinamika grafigi:** Oylar kesimida faktik va rejalashtirilgan ko'rsatkichlarning o'sish tendensiyasi.
+* **Qo'shimcha tahlillar:** Mahsulotlar kesimida daromad ulushi (Donut chart), operatsion xarajatlar tuzilmasi va regionlar bo'yicha sof foyda taqsimoti.
 
-### 2. Ikkinchi Sahifa (P&L Matritsasi / Batafsil jadval)
-* **Maqsad:** Moliyaviy hisobotning barcha moddalari bo'yicha batafsil raqamli ma'lumotlarni ko'rish.
-* **Tarkibi:**
-  * Daromad, sotilgan mahsulot tannarxi, yalpi foyda, operatsion xarajatlar, foiz xarajatlari va soliqlar kesimida *Fakt*, *Reja*, *Farq (absolyut)* hamda *Farq (%)* ko'rsatkichlari.
-  * Shartli formatlash (conditional formatting) yordamida rejadan ortib ketgan yoki kamomad bo'lgan qismlarning qizil/ko'k ranglarda yaqqol ajratib ko'rsatilishi.
+ <img width="1020" height="757" alt="image" src="https://github.com/user-attachments/assets/9ba7b460-b603-4bad-a24f-f6389fc027e4" />
 
----
+### 2. P&L Matritsasi (Batafsil Jadval)
+* **Moliyaviy moddalar:** Daromad, sotilgan mahsulot tannarxi, yalpi foyda, operatsion xarajatlar, soliqlar va sof foyda qiymatlari.
+* **Taqqoslash:** *Fakt* va *Reja* ko'rsatkichlari, ularning absolyut farqi hamda foizdagi og'ishlari shartli formatlash (qizil va ko'k ranglar) yordamida yaqqol ko'rsatilgan.
 
-## 🛠 Texnik xususiyatlar va vositalar
-* **Asbob:** Power BI Desktop
-* **Ma'lumotlar bazasi va manbalari:** Excel / SQL asosidagi moliyaviy ma'lumotlar.
-* **Dizayn uslubi:** Minimalizm, zamonaviy karta bloki va foydalanuvchiga qulay (User-Friendly) interfeys.
+<img width="979" height="737" alt="image" src="https://github.com/user-attachments/assets/e9f0ad8e-4471-476c-b06a-925bb1c8fca2" />
 
 ---
 
-## 🚀 Loyihani qanday ishga tushirish kerak?
-1. Repozitoriyadagi `.pbix` kengaytirgichli faylni yuklab oling.
-2. Kompyuteringizda **Power BI Desktop** dasturini oching.
-3. Faylni dastur orqali ochib, o'z ma'lumotlar bazangizga moslab ma'lumotlarni yangilang (`Refresh`).
+## 🛠 Texnik Xususiyatlar
+* **Dastur:** Power BI Desktop
+* **Ma'lumotlar formati:** Moliyaviy bazalar va jadval ma'lumotlari (`.pbix`)
+* **Dizayn uslubi:** Minimalizm, zamonaviy karta bloklari va toza interfeys
+
+---
+
+## 🚀 Loyihani Ishga Tushirish
+1. Repozitoriyadagi `gidhub loyiha_1.pbix` faylini kompyuteringizga yuklab oling.
+2. Uni **Power BI Desktop** dasturida oching.
+3. Ma'lumotlarni o'zingizning manbalaringizga moslab yangilang (`Refresh`).
