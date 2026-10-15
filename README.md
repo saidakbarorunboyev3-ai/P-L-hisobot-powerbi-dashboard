@@ -14,13 +14,16 @@ Hisobot ikki asosiy sahifadan iborat bo'lib, ular rahbariyat va tahlilchilar uch
 * **Oylik dinamika grafigi:** Oylar kesimida faktik va rejalashtirilgan ko'rsatkichlarning o'sish tendensiyasi.
 * **Qo'shimcha tahlillar:** Mahsulotlar kesimida daromad ulushi (Donut chart), operatsion xarajatlar tuzilmasi va regionlar bo'yicha sof foyda taqsimoti.
 
- <img width="1020" height="757" alt="image" src="https://github.com/user-attachments/assets/9ba7b460-b603-4bad-a24f-f6389fc027e4" />
+<img width="911" height="750" alt="image" src="https://github.com/user-attachments/assets/f62bc181-f3cd-47ea-873f-344ada11a8ff" />
+
+
 
 ### 2. P&L Matritsasi (Batafsil Jadval)
 * **Moliyaviy moddalar:** Daromad, sotilgan mahsulot tannarxi, yalpi foyda, operatsion xarajatlar, soliqlar va sof foyda qiymatlari.
 * **Taqqoslash:** *Fakt* va *Reja* ko'rsatkichlari, ularning absolyut farqi hamda foizdagi og'ishlari shartli formatlash (qizil va ko'k ranglar) yordamida yaqqol ko'rsatilgan.
 
-<img width="979" height="737" alt="image" src="https://github.com/user-attachments/assets/e9f0ad8e-4471-476c-b06a-925bb1c8fca2" />
+<img width="728" height="612" alt="image" src="https://github.com/user-attachments/assets/f3da4589-54a9-44f3-8a9e-0affe5748a19" />
+
 
 ---
 
